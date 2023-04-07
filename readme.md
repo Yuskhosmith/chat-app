@@ -1,7 +1,7 @@
 # Hello Reader
 This was created with the help of a tutorial ([link](https://youtu.be/F4nwRQPXD8w)). But their code isn't working for some reason, as of the time of writing - Django has never supported WebSocket connections using the runserver command out of the box. It has always required an additional server or middleware to handle WebSocket connections.
 
-This project uses Daphine instead of runserver. Daphne is a production-ready ASGI server for Django, so it is designed to work with Django web applications.
+This project uses Daphne instead of runserver. Daphne is a production-ready ASGI server for Django, so it is designed to work with Django web applications.
 
 To start:
 ```sh
